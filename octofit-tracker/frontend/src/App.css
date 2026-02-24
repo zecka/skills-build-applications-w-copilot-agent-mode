@@ -1,0 +1,86 @@
+.app-shell {
+  min-height: 100vh;
+  background: linear-gradient(
+    180deg,
+    var(--bs-primary-bg-subtle) 0%,
+    var(--bs-info-bg-subtle) 40%,
+    var(--bs-light) 100%
+  );
+  color: var(--bs-emphasis-color);
+}
+
+.navbar {
+  background: linear-gradient(90deg, var(--bs-primary-bg-subtle), var(--bs-light)) !important;
+}
+
+.navbar-brand {
+  color: var(--bs-primary-text-emphasis) !important;
+}
+
+.app-logo {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  border-radius: 0.375rem;
+  background-color: var(--bs-white);
+  padding: 0.125rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: var(--bs-primary-text-emphasis);
+}
+
+a,
+.link-primary {
+  color: var(--bs-link-color);
+}
+
+a:hover,
+.link-primary:hover {
+  color: var(--bs-link-hover-color);
+}
+
+.card {
+  border: 1px solid var(--bs-border-color);
+}
+
+.table {
+  --bs-table-bg: var(--bs-body-bg);
+  --bs-table-striped-bg: var(--bs-primary-bg-subtle);
+  --bs-table-hover-bg: var(--bs-info-bg-subtle);
+  --bs-table-color: var(--bs-emphasis-color);
+}
+
+.table thead.table-light th {
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-primary-text-emphasis);
+  --bs-btn-hover-border-color: var(--bs-primary-text-emphasis);
+}
+
+.btn-secondary {
+  --bs-btn-bg: var(--bs-secondary);
+  --bs-btn-border-color: var(--bs-secondary);
+}
+
+.table pre,
+.modal pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
